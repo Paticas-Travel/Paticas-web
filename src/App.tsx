@@ -21,7 +21,7 @@ import Breadcrumb from "./components/breadcrumb/Breadcrumb";
 import { useLocation } from "react-router";
 import TermsConditions from "./layout/Terms&Conditions/Terms&Conditions";
 import PrivacyPolitics from "./layout/PrivacyPolitics/PrivacyPolitics";
-import CancelationPolitics from "./layout/CancelationPolitics/CancelationPolitics";
+import CancellationPolitics from "./layout/CancellationPolitics/CancellationPolitics";
 import PaymentMethods from "./layout/PaymentMethods/PaymentMethods";
 import CommunityImpact from "./layout/CommunityImpact/CommunityImpact";
 import FAQs from "./layout/FAQs/FAQs";
@@ -51,10 +51,10 @@ function App() {
             <Route path="/blogs/:id" element={<Blog />} />
             <Route path="/contact" element={<Contact showForm />} />
             <Route path="/terms&conditions" element={<TermsConditions />} />
-            <Route path="/privacyPolitics" element={<PrivacyPolitics />} />
-            <Route path="/cancel" element={<CancelationPolitics />} />
+            <Route path="/privacy-policy" element={<PrivacyPolitics />} />
+            <Route path="/cancellation-policy" element={<CancellationPolitics />} />
             <Route path="/payment" element={<PaymentMethods />} />
-            <Route path="/community" element={<CommunityImpact />} />
+            <Route path="/community-impact" element={<CommunityImpact />} />
             <Route path="/faqs" element={<FAQs />} />
           </Routes>
         </BlogProvider>

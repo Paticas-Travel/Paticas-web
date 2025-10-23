@@ -18,7 +18,7 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
     url: "/terms&conditions",
   },
   {
-    title: t("routesName.mientrast"),
+    title: t("routesName.contact"),
     id: "contact",
     url: "/contact",
   },
@@ -27,6 +27,27 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
     id: "blogs",
     url: "/blogs",
   },
+  {
+    title: t("routesName.privacyPolicy"),
+    id: "privacy-policy",
+    url: "/privacy-policy",
+  },
+  {
+    title: t("routesName.payment"),
+    id: "payment",
+    url: "/payment",
+  },
+  {
+    title: t("routesName.cancellationPolicy"),
+    id: "cancellation-policy",
+    url: "/cancellation-policy",
+  },
+  {
+    title: t("routesName.communityImpact"),
+    id: "community-impact",
+    url: "/community-impact",
+  },
+  // Tours
   {
     title: t("routesName.categories"),
     id: "categories",
