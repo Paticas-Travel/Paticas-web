@@ -43,9 +43,9 @@ const Breadcrumbs = (t: TFunction): BreadcrumbType[] => [
     url: "/cancellation-policy",
   },
   {
-    title: t("routesName.communityImpact"),
-    id: "community-impact",
-    url: "/community-impact",
+    title: t("routesName.sustainability"),
+    id: "sustainability",
+    url: "/sustainability",
   },
   // Tours
   {

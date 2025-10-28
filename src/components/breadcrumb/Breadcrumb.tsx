@@ -22,18 +22,21 @@ const Breadcrumb = ({ path }: { path: string }) => {
 
   return (
     <nav className="w-full h-5 pl-[5rem] absolute z-10">
-      {fullBreadcrumbs.map((crumb, index) => (
-        <span key={crumb.link}>
-          <Link
-            to={crumb.link}
-            className={`px-1 text-sm ${index === fullBreadcrumbs.length - 1 ? "text-black no-underline" : "text-[#65a603]"}`}
-
-          >
-            {crumb.name}
-          </Link>
-          {index < fullBreadcrumbs.length - 1 && " › "}
-        </span>
-      ))}
+      {fullBreadcrumbs.map((crumb, index) => {
+        const isLast = index === fullBreadcrumbs.length - 1;
+        return (
+          <span key={crumb.link}>
+            <Link
+              to={crumb.link}
+              className={`px-1 text-sm ${isLast ? "text-black no-underline cursor-default" : "text-[#65a603]"}`}
+              onClick={(event) => isLast && event.preventDefault()}
+            >
+              {crumb.name}
+            </Link>
+            {index < fullBreadcrumbs.length - 1 && " › "}
+          </span>
+        )
+      })}
     </nav>
   );
 };

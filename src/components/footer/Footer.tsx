@@ -51,7 +51,7 @@ const Footer = () => {
               <li><a href={`/privacy-policy`} className="text-white">{i18n.t("footer.support.privacy")}</a></li>
               <li><a href="/cancellation-policy/" className="text-white">{i18n.t("footer.support.cancel")}</a></li>
               <li><a href="/payment/" className="text-white">{i18n.t("footer.support.payment")}</a></li>
-              <li><a href="/community-impact/" className="text-white">{i18n.t("footer.support.community")}</a></li>
+              <li><a href="/sustainability/" className="text-white">{i18n.t("footer.support.sustainability")}</a></li>
             </ul>
           </nav>
 

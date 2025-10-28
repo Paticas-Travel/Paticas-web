@@ -119,7 +119,7 @@
       "privacy": "Privacy Policy",
       "cancel": "Cancellation Policy",
       "payment": "Payment Methods",
-      "community": "Community Impact"
+      "sustainability": "Sustainability"
     },
     "contact": {
       "title": "Contact Us",
@@ -1740,7 +1740,7 @@
     "terms&conditions": "Terms & Conditions",
     "payment": "Payment Methods",
     "privacyPolicy": "Privacy Policy",
-    "communityImpact": "Community Impact"
+    "sustainability": "Sustainability"
   },
   "faqs": {
     "annotation": "Traveling with Paticas",
@@ -1986,7 +1986,7 @@
           },
           {
             "title": "Secure payment link: ",
-            "text": "major credit and debit cards."
+            "text": "our travel designers can send you a personalized payment link to complete your booking quickly and safely."
           },
           {
             "title": "PayPal: ",
@@ -2016,57 +2016,117 @@
       }
     }
   },
-  "communityImpact": {
-    "title": "Community Impact",
-    "text": "At Paticas Travel, we believe that every journey has the power to transform—not only the traveler, but also the people and places that make Costa Rica unique. Our commitment is to create luxury travel experiences with purpose, ensuring that each tour supports local communities, protects the environment, and generates lasting positive impact.",
+  "sustainability": {
+    "title": "Sustainability at Paticas Travel",
+    "subTitle": "Luxury with Purpose – Connecting People, Nature & Culture",
+    "text": "At Paticas Travel, we believe that every journey has the power to transform — not only the traveler, but also the people, communities, and ecosystems that make Costa Rica extraordinary.\n\nOur philosophy of Luxury with Purpose means creating private, tailor-made experiences that combine comfort, authenticity, and responsibility — ensuring that every adventure leaves a positive footprint.",
     "sections": {
-      "supportingLocalBusinesses": {
-        "title": "Supporting Local Businesses",
-        "text": "Since our beginnings, we have partnered with high-end local businesses and artisans to integrate them into our luxury tours. During our journeys, we make strategic stops that allow travelers to experience the authentic Costa Rica while contributing directly to the local economy.",
-        "items": [
-          "Tasting fresh strawberries from family-owned farms in Poás.",
-          "Enjoying artisan cheeses and traditional sweets in rural villages.",
-          "Visiting local coffee producers and learning about sustainable harvesting.",
-          "Supporting artisans by purchasing handicrafts and souvenirs directly from them."
-        ],
-        "subText": "Through these initiatives, our guests not only enjoy authentic cultural exchanges but also generate income for Costa Rican families and entrepreneurs."
-      },
-      "sustainableAndResponsibleTourism": {
-        "title": "Sustainable & Responsible Tourism",
-        "text": "Luxury and responsibility go hand in hand. At Paticas Travel, we design experiences that:",
+      "sustainabilityCommitment": {
+        "title": "Our Commitment to Sustainability",
+        "text": "Our sustainability model is guided by the three pillars of responsible tourism defined by the Costa Rican Tourism Institute (ICT):",
         "items": [
           {
-            "title": "Respect nature ",
-            "text": "by minimizing environmental impact"
+            "title": "Environmental: ",
+            "text": "reducing our ecological footprint and protecting biodiversity."
           },
           {
-            "title": "Promote sustainability ",
-            "text": "through eco-friendly practices in transportation and tour design."
+            "title": "Sociocultural: ",
+            "text": "strengthening local communities, traditions, and cultural identity."
           },
           {
-            "title": "Protect biodiversity ",
-            "text": "by collaborating with certified guides and conservation programs."
-          },
-          {
-            "title": "Educate travelers ",
-            "text": "on Costa Rica’s natural and cultural heritage."
+            "title": "Economic:",
+            "text": "generating fair opportunities and long-term prosperity for local partners and small entrepreneurs."
           }
         ],
-        "subText": "By choosing our tours, travelers become active participants in promoting sustainable tourism in Costa Rica."
+        "subText": "For us, sustainability isn’t an add-on — it’s woven into every stage of our operations, itineraries, and collaborations."
       },
-      "luxuryWithPurpose": {
-        "title": "Luxury with Purpose",
-        "text": "What sets Paticas Travel apart is our philosophy: every luxury experience should leave a positive footprint. While our travelers enjoy private, tailor-made journeys with comfort and exclusivity, they also contribute to the well-being of the communities and ecosystems that make Costa Rica extraordinary."
-      },
-      "ourCommitment": {
-        "title": "Our Commitment",
+      "environmentalResponsibility": {
+        "title": "Environmental Responsibility",
+        "text": "Every tour is designed to respect nature, minimize impact, and inspire conscious, eco-friendly travelers. We operate in harmony with Costa Rica’s biodiversity, ensuring that our guests experience the country responsibly and meaningfully.",
+        "subTitle": "Our actions include:",
         "items": [
-          "Strengthening community-based tourism.",
-          "Creating authentic cultural exchanges.",
-          "Empowering local entrepreneurs.",
-          "Building a model of luxury travel that truly gives back."
+          "Replacing single-use plastics with reusable water bottles for guests.",
+          "Offering biodegradable or compostable packaging for snacks and picnics.",
+          "Applying the “Leave No Trace” principle throughout all our experiences.",
+          "Sorting and recycling organic, glass, aluminum, and plastic waste during tours and at our office.",
+          "Partnering with municipal and community recycling programs in the regions we visit.",
+          "Promoting low-impact routes and working exclusively with certified naturalist guides.",
+          "Including tree-planting experiences where travelers help restore native forests and support reforestation projects."
         ],
-        "text": "By traveling with Paticas, you’re not just booking a tour—you’re becoming part of a story of connection, sustainability, and community impact that helps preserve Costa Rica for future generations."
+        "subText": "Through these initiatives, we not only reduce our footprint — we also inspire environmental awareness and education among our guests."
+      },
+      "communityCommitment": {
+        "title": "Community & Cultural Commitment",
+        "text": "Since the beginning, Paticas Travel has worked hand in hand with rural families, artisans, farmers, and small local businesses across Costa Rica.\n\nWe believe true luxury is found in human connection, cultural authenticity, and shared prosperity.",
+        "subTitle": "Partnerships with Local Businesses",
+        "subText": "We proudly collaborate with over 70 local partners throughout the country, strengthening rural economies, fair trade, and cultural identity.",
+        "itemsTitle": "Our partners include:",
+        "items": [
+          {
+            "title": "Family-owned strawberry farms in Poás, ",
+            "text": "where travelers learn about cultivation and taste handmade products"
+          },
+          {
+            "title": "Coffee producers ",
+            "text": "with sustainable farming practices who share the art of Costa Rican coffee from bean to cup."
+          },
+          {
+            "title": "Artisans in Sarchí, ",
+            "text": "creators of hand-painted oxcarts, furniture, and crafts made from responsibly sourced wood."
+          },
+          {
+            "title": "Traditional producers from Guanacaste, ",
+            "text": "offering handmade rosquillas, tanelas, and sweets that preserve regional culinary heritage."
+          }
+        ],
+        "subText2": "These collaborations bring travelers closer to Costa Rica’s authentic traditions while ensuring that tourism generates real, direct benefits for local families.",
+        "subTitle2": "Our Ongoing Actions",
+        "items2": [
+          "Integrating authentic cultural experiences, including craft workshops, traditional cooking, and guided tours led by local hosts.",
+          "Including handmade souvenirs from Costa Rican artisans in each tour, encouraging responsible purchasing and cultural appreciation.",
+          "Developing the Luxury Picnic Experience, featuring 100% local products — artisanal cheese, seasonal fruits, and homemade bread sourced from small regional farms.",
+          "Providing financial and volunteer support to Fundación Buscadores de Perlas, a non-profit that empowers children, women, and seniors through education, music, nutrition, crafts, and agroecology.",
+          "Promoting gender equality and inclusion, prioritizing local guides, drivers, and coordinators to ensure that opportunities and income remain in Costa Rican hands."
+        ],
+        "subText3": "Through these initiatives, tourism becomes a true driver of human and social development, generating sustainable income and preserving Costa Rica’s cultural pride."
+      },
+      "economicAndSocialImpact": {
+        "title": "Economic & Social Impact",
+        "text": "Guided by our philosophy Luxury with Purpose, every Paticas Travel experience creates tangible economic value that stays in Costa Rica.\n\nWe ensure that tourism supports those who make this country unique — our people, artisans, and communities.\n\nOur economic sustainability practices:",
+        "items": [
+          "Guaranteeing that every tour directly benefits small local businesses and family-run enterprises.",
+          "Promoting domestic tourism through campaigns aimed at Costa Rican travelers.",
+          "Encouraging fair, long-term relationships with our local partners and suppliers.",
+          "Supporting training and capacity-building programs to enhance service quality and environmental management among our collaborators."
+        ],
+        "subText": "Each journey with Paticas Travel helps strengthen a sustainable value chain that generates wellbeing, development, and empowerment across Costa Rica."
+      },
+      "ourResultsAndImpact": {
+        "title": "Our Results & Impact",
+        "text": "Our ongoing work translates into measurable, long-term results that reinforce Costa Rica’s position as a global leader in sustainable tourism.",
+        "subTitle": "Environmental Impact",
+        "items": [
+          "Major reduction in plastic use across all operations.",
+          "Active reforestation and protection of local ecosystems through native tree planting.",
+          "Environmental education for both local and international travelers."
+        ],
+        "subTitle1": "Sociocultural Impact",
+        "items1": [
+          "Preservation of traditional crafts, cuisine, and rural lifestyles.",
+          "Inclusion of more than 70 rural partners and artisans in our tourism network.",
+          "Fair payment and promotion of artisanal and agricultural work.",
+          "Strengthening cultural pride through meaningful, authentic travel experiences."
+        ],
+        "subTitle2": "Economic Impact",
+        "items2": [
+          "Equitable income distribution among rural and community-based partners.",
+          "Continuous support to Fundación Buscadores de Perlas, improving quality of life for vulnerable groups.",
+          "Creation of dignified, local employment in guiding, transportation, and tour operations."
+        ]
+      },
+      "ourPromise": {
+        "title": "Our Promise",
+        "text": "At Paticas Travel, sustainability isn’t a certification — it’s a way of life. We’re proud to represent a model of luxury tourism with conscience, where every journey blends comfort, authenticity, and purpose.\n\nBy traveling with us, you help protect Costa Rica’s ecosystems, preserve its culture, and uplift the communities that make this country extraordinary. Because for us, traveling and living mean the same thing."
       }
     }
   }

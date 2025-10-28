@@ -23,7 +23,7 @@ import TermsConditions from "./layout/Terms&Conditions/Terms&Conditions";
 import PrivacyPolitics from "./layout/PrivacyPolitics/PrivacyPolitics";
 import CancellationPolitics from "./layout/CancellationPolitics/CancellationPolitics";
 import PaymentMethods from "./layout/PaymentMethods/PaymentMethods";
-import CommunityImpact from "./layout/CommunityImpact/CommunityImpact";
+import Sustainability from "./layout/Sustainability/Sustainability";
 import FAQs from "./layout/FAQs/FAQs";
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolitics />} />
             <Route path="/cancellation-policy" element={<CancellationPolitics />} />
             <Route path="/payment" element={<PaymentMethods />} />
-            <Route path="/community-impact" element={<CommunityImpact />} />
+            <Route path="/sustainability" element={<Sustainability />} />
             <Route path="/faqs" element={<FAQs />} />
           </Routes>
         </BlogProvider>
