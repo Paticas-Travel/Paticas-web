@@ -119,7 +119,7 @@
       "privacy": "Privacy Policy",
       "cancel": "Cancellation Policy",
       "payment": "Payment Methods",
-      "community": "Community Impact"
+      "sustainability": "Sustainability"
     },
     "contact": {
       "title": "Contact Us",
@@ -777,11 +777,12 @@
     ],
     "dinnerIncludes": "Breakfast, lunch and dinner"
   },
+  "paticasEmail": "info@paticastravel.com",
   "partners": "Partners",
-  "people": "people",
-  "perPerson": "per person",
   "passportId": "Passport ID",
   "phoneNumber": "Phone Number",
+  "people": "people",
+  "perPerson": "per person",
   "terms&Conditions": "Terms and Conditions",
   "terms&ConditionsFileName": "en/TermsAndConditions.pdf",
   "pricePerKid": "Price per kid",
@@ -1722,6 +1723,7 @@
   },
   "routesName": {
     "home": "Home",
+    "cancellationPolicy": "Cancellation Policy",
     "categories": "Categories",
     "category": "Category",
     "multiDayTours": "Multi Day Tours",
@@ -1734,7 +1736,11 @@
     "booking": "Booking",
     "blog": "Blog",
     "blogs": "Blogs",
-    "faqs": "FAQs"
+    "faqs": "FAQs",
+    "terms&conditions": "Terms & Conditions",
+    "payment": "Payment Methods",
+    "privacyPolicy": "Privacy Policy",
+    "sustainability": "Sustainability"
   },
   "faqs": {
     "annotation": "Traveling with Paticas",
@@ -1811,6 +1817,316 @@
             "interLinkText2": "Private Tour to Poás Volcano with Local Strawberry Tasting"
           }
         }
+      }
+    }
+  },
+  "termsAndConditionsView": {
+    "meta": {
+      "title": "Terms & Conditions – Paticas Travel | Booking Policies",
+      "description": "Explore Paticas Travel’s terms and conditions. Learn about reservations, changes, and liability guidelines to ensure a safe and reliable luxury travel experience in Costa Rica."
+    },
+    "title": "Terms and Conditions",
+    "intro": "At Paticas Travel, we are committed to providing unforgettable experiences with total security and transparency. These Terms and Conditions govern important aspects of our services, including reservations, modifications, responsibilities, and liability. By booking with us, you agree to these terms.",
+    "sections": {
+      "reservations": {
+        "title": "Reservations",
+        "items": [
+          "Reservation requests are processed within 36 hours. Once availability is confirmed, you will receive an email with your booking details.",
+          "All confirmed reservations are subject to availability at the time of booking.",
+          "Guests are responsible for providing accurate information when making a reservation (names, travel dates, contact details, etc.)."
+        ]
+      },
+      "modificationsAndLiability": {
+        "title": "Modifications and Liability",
+        "items": [
+          {
+            "title": "Itinerary modifications: ",
+            "info": "Paticas Travel reserves the right to adjust or modify itineraries when necessary for operational or safety reasons."
+          },
+          {
+            "title": "Uncontrollable factors: ",
+            "info": "We cannot guarantee wildlife sightings, weather conditions, or natural events."
+          },
+          {
+            "title": "Personal belongings: ",
+            "info": "Luggage and personal items remain the sole responsibility of the traveler."
+          },
+          {
+            "title": "Liability disclaimer: ",
+            "info": "Paticas Travel and its representatives shall not be held responsible for any losses, additional expenses, or incidents arising from:",
+            "subItems": [
+              "Delays or changes in itineraries.",
+              "Theft, loss, or damage to luggage.",
+              "Illness, accidents, or death.",
+              "Adverse weather conditions.",
+              "Strikes, fires, volcanic eruptions, earthquakes, floods, or epidemics.",
+              "Trail conditions, river levels, road conditions, or transportation delays.",
+              "Wars, conflicts, or any other force majeure events."
+            ]
+          }
+        ]
+      },
+      "generalConditions": {
+        "title": "General Conditions",
+        "text": "All our services are provided in accordance with Costa Rican law and international standards of safe tourism. By confirming a reservation, travelers acknowledge and accept these Terms and Conditions."
+      },
+      "ourCommitment": {
+        "title": "Our Commitment",
+        "text": "We strive to provide clear, transparent, and professional services at every stage of your journey. These Terms and Conditions are designed to protect both our valued clients and our high-end local partners, ensuring that your luxury travel experience in Costa Rica is safe, reliable, and unforgettable."
+      }
+    }
+  },
+  "privacyPolicyView": {
+    "title": "Privacy Policy",
+    "text": "At Paticas Travel, we value the trust you place in us. Protecting your personal information is one of our highest priorities. All information provided by our customers will be treated with strict confidentiality and will never be shared with third parties, except when necessary for the proper provision of the service.",
+    "sections": {
+      "informationWeCollect": {
+        "title": "Information We Collect",
+        "text": "When booking or contacting us, we may request:",
+        "items": [
+          "Name, email, and phone number.",
+          "Payment details (processed securely).",
+          "Travel preferences to personalize your experience."
+        ]
+      },
+      "howWeUseYourInformation": {
+        "title": "How We Use Your Information",
+        "text": "Your data is used exclusively to:",
+        "items": [
+          "Confirm reservations and issue invoices.",
+          "Personalize and deliver your travel services.",
+          "Communicate updates related to your booking."
+        ],
+        "subText": "We do not sell or share personal data for marketing purposes. Information is only shared with trusted providers (such as hotels, transportation companies, or insurance providers) when it is essential to guarantee the service you booked."
+      },
+      "dataProtection&Security": {
+        "title": "Data Protection & Security",
+        "items": [
+          "All online payments are processed via Peek Pro, a secure and encrypted booking platform.",
+          "Access to client data is restricted to authorized staff only.",
+          "We apply safety measures to prevent unauthorized access, misuse, or loss of your information."
+        ]
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "text": "As a client, you have the right to:",
+        "items": [
+          "Request access to the personal data we hold about you.",
+          "Ask for updates or corrections to your information.",
+          "Request deletion of your data once services are completed."
+        ],
+        "subText": "For any privacy-related inquiries, please contact us at"
+      },
+      "ourCommitment": {
+        "title": "Our Commitment",
+        "text": "By booking with Paticas Travel, you can rest assured that your personal data is handled with professionalism, transparency, and full respect for your privacy—just as carefully as we handle your luxury travel experiences in Costa Rica."
+      }
+    }
+  },
+  "cancellationPolicyView": {
+    "title": "Cancellation Policy",
+    "intro": "At Paticas Travel, we understand that travel plans may change. Our cancellation policy has been designed to provide clarity, fairness, and flexibility, while ensuring a balance between our guests and the local partners who make each luxury experience possible.",
+    "sections": {
+      "refundconditions": {
+        "title": "Refund Conditions",
+        "items": [
+          {
+            "title": "More than 22 days before the tour date:",
+            "text": "Full refund, no penalty."
+          },
+          {
+            "title": "Between 22 and 12 days before:",
+            "text": "70% refund..."
+          },
+          {
+            "title": "Between 11 and 9 days before:",
+            "text": "50% Refund"
+          },
+          {
+            "title": "Less than 9 days before:",
+            "text": "No refund..."
+          }
+        ],
+        "text": "If services include hotels or external providers, the refund will also depend on the individual policies of those partners."
+      },
+      "specialCircumstances": {
+        "title": "Special Circumstances",
+        "items": [
+          {
+            "title": "Medical reasons:",
+            "text": "Guests may request a refund or credit by presenting a valid medical certificate, subject to provider policies."
+          },
+          {
+            "title": "Force majeure:",
+            "text": "Circumstances such as natural disasters, strikes, or extreme weather conditions will be handled with flexibility, always prioritizing safety."
+          }
+        ]
+      },
+      "nonRefundableCases": {
+        "title": "Non-Refundable Cases",
+        "text": "If a guest voluntarily decides not to use part of the services included in their itinerary, without a valid reason recognized by Paticas Travel, no refund will apply"
+      },
+      "ourCommitment": {
+        "title": "Our Commitment",
+        "text": "Our promise is to handle every case with transparency and respect, ensuring that travelers can book with confidence. By setting clear terms, we protect both our valued guests and the high-end local businesses we proudly support in Costa Rica."
+      }
+    }
+  },
+  "paymentMethods": {
+    "title": "Payment Methods",
+    "text": "At Paticas Travel, we offer secure, flexible, and transparent payment options designed for international travelers who expect reliability and peace of mind when booking their luxury experience in Costa Rica. All transactions are managed through trusted platforms to guarantee safety and efficiency.",
+    "sections": {
+      "onlinePayment": {
+        "title": "Online Payments via Peek Pro",
+        "text": "We process payments through Peek Pro, a globally recognized booking and payment platform for the travel industry. This ensures that every transaction is encrypted and 100% secure.",
+        "items": [
+          {
+            "title": "Accepted methods: ",
+            "text": "major credit and debit cards."
+          },
+          {
+            "title": "Secure payment link: ",
+            "text": "our travel designers can send you a personalized payment link to complete your booking quickly and safely."
+          },
+          {
+            "title": "PayPal: ",
+            "text": "available as an additional digital payment option."
+          }
+        ],
+        "note": "Note: ",
+        "subText": "All our published prices already include Costa Rica sales taxes. For online payments processed through Peek Pro or PayPal, the platform processing fees are the responsibility of the client. This policy ensures full transparency and allows us to maintain competitive prices while continuing to support Costa Rican communities."
+      },
+      "bankTransfer": {
+        "title": "Bank Transfer",
+        "text": "For clients who prefer wire transfers, we provide a dedicated USD account in Costa Rica.",
+        "items": [
+          "Full bank details (account number, SWIFT/BIC code, beneficiary name, and tax ID) are shared securely with confirmed bookings.",
+          "Bank transfer and international wire fees are the responsibility of the client.",
+          "Payments must be made in U.S. dollars (USD)."
+        ]
+      },
+      "bookWithUs": {
+        "title": "Why Book with Paticas Travel?",
+        "items": [
+          "Multiple safe and reliable payment methods.",
+          "Transparent communication about fees and conditions.",
+          "Immediate confirmation once payment is received."
+        ],
+        "text": "By choosing Paticas Travel, you can rest assured that your reservation process is clear, professional, and fully secure—just as your travel experience in Costa Rica will be."
+      }
+    }
+  },
+  "sustainability": {
+    "title": "Sustainability at Paticas Travel",
+    "subTitle": "Luxury with Purpose – Connecting People, Nature & Culture",
+    "text": "At Paticas Travel, we believe that every journey has the power to transform — not only the traveler, but also the people, communities, and ecosystems that make Costa Rica extraordinary.\n\nOur philosophy of Luxury with Purpose means creating private, tailor-made experiences that combine comfort, authenticity, and responsibility — ensuring that every adventure leaves a positive footprint.",
+    "sections": {
+      "sustainabilityCommitment": {
+        "title": "Our Commitment to Sustainability",
+        "text": "Our sustainability model is guided by the three pillars of responsible tourism defined by the Costa Rican Tourism Institute (ICT):",
+        "items": [
+          {
+            "title": "Environmental: ",
+            "text": "reducing our ecological footprint and protecting biodiversity."
+          },
+          {
+            "title": "Sociocultural: ",
+            "text": "strengthening local communities, traditions, and cultural identity."
+          },
+          {
+            "title": "Economic:",
+            "text": "generating fair opportunities and long-term prosperity for local partners and small entrepreneurs."
+          }
+        ],
+        "subText": "For us, sustainability isn’t an add-on — it’s woven into every stage of our operations, itineraries, and collaborations."
+      },
+      "environmentalResponsibility": {
+        "title": "Environmental Responsibility",
+        "text": "Every tour is designed to respect nature, minimize impact, and inspire conscious, eco-friendly travelers. We operate in harmony with Costa Rica’s biodiversity, ensuring that our guests experience the country responsibly and meaningfully.",
+        "subTitle": "Our actions include:",
+        "items": [
+          "Replacing single-use plastics with reusable water bottles for guests.",
+          "Offering biodegradable or compostable packaging for snacks and picnics.",
+          "Applying the “Leave No Trace” principle throughout all our experiences.",
+          "Sorting and recycling organic, glass, aluminum, and plastic waste during tours and at our office.",
+          "Partnering with municipal and community recycling programs in the regions we visit.",
+          "Promoting low-impact routes and working exclusively with certified naturalist guides.",
+          "Including tree-planting experiences where travelers help restore native forests and support reforestation projects."
+        ],
+        "subText": "Through these initiatives, we not only reduce our footprint — we also inspire environmental awareness and education among our guests."
+      },
+      "communityCommitment": {
+        "title": "Community & Cultural Commitment",
+        "text": "Since the beginning, Paticas Travel has worked hand in hand with rural families, artisans, farmers, and small local businesses across Costa Rica.\n\nWe believe true luxury is found in human connection, cultural authenticity, and shared prosperity.",
+        "subTitle": "Partnerships with Local Businesses",
+        "subText": "We proudly collaborate with over 70 local partners throughout the country, strengthening rural economies, fair trade, and cultural identity.",
+        "itemsTitle": "Our partners include:",
+        "items": [
+          {
+            "title": "Family-owned strawberry farms in Poás, ",
+            "text": "where travelers learn about cultivation and taste handmade products"
+          },
+          {
+            "title": "Coffee producers ",
+            "text": "with sustainable farming practices who share the art of Costa Rican coffee from bean to cup."
+          },
+          {
+            "title": "Artisans in Sarchí, ",
+            "text": "creators of hand-painted oxcarts, furniture, and crafts made from responsibly sourced wood."
+          },
+          {
+            "title": "Traditional producers from Guanacaste, ",
+            "text": "offering handmade rosquillas, tanelas, and sweets that preserve regional culinary heritage."
+          }
+        ],
+        "subText2": "These collaborations bring travelers closer to Costa Rica’s authentic traditions while ensuring that tourism generates real, direct benefits for local families.",
+        "subTitle2": "Our Ongoing Actions",
+        "items2": [
+          "Integrating authentic cultural experiences, including craft workshops, traditional cooking, and guided tours led by local hosts.",
+          "Including handmade souvenirs from Costa Rican artisans in each tour, encouraging responsible purchasing and cultural appreciation.",
+          "Developing the Luxury Picnic Experience, featuring 100% local products — artisanal cheese, seasonal fruits, and homemade bread sourced from small regional farms.",
+          "Providing financial and volunteer support to Fundación Buscadores de Perlas, a non-profit that empowers children, women, and seniors through education, music, nutrition, crafts, and agroecology.",
+          "Promoting gender equality and inclusion, prioritizing local guides, drivers, and coordinators to ensure that opportunities and income remain in Costa Rican hands."
+        ],
+        "subText3": "Through these initiatives, tourism becomes a true driver of human and social development, generating sustainable income and preserving Costa Rica’s cultural pride."
+      },
+      "economicAndSocialImpact": {
+        "title": "Economic & Social Impact",
+        "text": "Guided by our philosophy Luxury with Purpose, every Paticas Travel experience creates tangible economic value that stays in Costa Rica.\n\nWe ensure that tourism supports those who make this country unique — our people, artisans, and communities.\n\nOur economic sustainability practices:",
+        "items": [
+          "Guaranteeing that every tour directly benefits small local businesses and family-run enterprises.",
+          "Promoting domestic tourism through campaigns aimed at Costa Rican travelers.",
+          "Encouraging fair, long-term relationships with our local partners and suppliers.",
+          "Supporting training and capacity-building programs to enhance service quality and environmental management among our collaborators."
+        ],
+        "subText": "Each journey with Paticas Travel helps strengthen a sustainable value chain that generates wellbeing, development, and empowerment across Costa Rica."
+      },
+      "ourResultsAndImpact": {
+        "title": "Our Results & Impact",
+        "text": "Our ongoing work translates into measurable, long-term results that reinforce Costa Rica’s position as a global leader in sustainable tourism.",
+        "subTitle": "Environmental Impact",
+        "items": [
+          "Major reduction in plastic use across all operations.",
+          "Active reforestation and protection of local ecosystems through native tree planting.",
+          "Environmental education for both local and international travelers."
+        ],
+        "subTitle1": "Sociocultural Impact",
+        "items1": [
+          "Preservation of traditional crafts, cuisine, and rural lifestyles.",
+          "Inclusion of more than 70 rural partners and artisans in our tourism network.",
+          "Fair payment and promotion of artisanal and agricultural work.",
+          "Strengthening cultural pride through meaningful, authentic travel experiences."
+        ],
+        "subTitle2": "Economic Impact",
+        "items2": [
+          "Equitable income distribution among rural and community-based partners.",
+          "Continuous support to Fundación Buscadores de Perlas, improving quality of life for vulnerable groups.",
+          "Creation of dignified, local employment in guiding, transportation, and tour operations."
+        ]
+      },
+      "ourPromise": {
+        "title": "Our Promise",
+        "text": "At Paticas Travel, sustainability isn’t a certification — it’s a way of life. We’re proud to represent a model of luxury tourism with conscience, where every journey blends comfort, authenticity, and purpose.\n\nBy traveling with us, you help protect Costa Rica’s ecosystems, preserve its culture, and uplift the communities that make this country extraordinary. Because for us, traveling and living mean the same thing."
       }
     }
   }

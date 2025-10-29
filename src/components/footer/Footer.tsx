@@ -48,10 +48,10 @@ const Footer = () => {
             <h3 className="font-semibold text-lg">{i18n.t("footer.support.title")}</h3>
             <ul className="mt-2 space-y-2 text-sm text-left italic pl-0">
               <li><a href="/terms&conditions/" className="text-white">{i18n.t("footer.support.terms")}</a></li>
-              <li><a href={`/privacy/${i18n.language}`} className="text-white">{i18n.t("footer.support.privacy")}</a></li>
-              <li><a href="/cancel/" className="text-white">{i18n.t("footer.support.cancel")}</a></li>
+              <li><a href={`/privacy-policy`} className="text-white">{i18n.t("footer.support.privacy")}</a></li>
+              <li><a href="/cancellation-policy/" className="text-white">{i18n.t("footer.support.cancel")}</a></li>
               <li><a href="/payment/" className="text-white">{i18n.t("footer.support.payment")}</a></li>
-              <li><a href="/community/" className="text-white">{i18n.t("footer.support.community")}</a></li>
+              <li><a href="/sustainability/" className="text-white">{i18n.t("footer.support.sustainability")}</a></li>
             </ul>
           </nav>
 
