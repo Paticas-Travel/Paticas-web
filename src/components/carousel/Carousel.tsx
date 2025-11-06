@@ -3,7 +3,6 @@ import { BannerType } from '../../utils/types';
 import { NavLink } from "react-router";
 import { useTranslation } from 'react-i18next';
 import { useRef, useState } from 'react';
-import Banners from '../../assets/banners';
 
 import "./Carousel.css";
 
@@ -14,27 +13,27 @@ const Carousel = () => {
 
   const CarouselBanners: Array<BannerType> = [
     {
-      image: Banners.Banner1,
+      image: "https://paticastravel.wordpress.com/wp-content/uploads/2025/11/banner-1-5.jpg",
       title: i18n.t("principalBanners.betweenVolcanoes.title"),
       description: i18n.t("principalBanners.betweenVolcanoes.description"),
     },
     {
-      image: Banners.Banner2,
+      image: "https://paticastravel.wordpress.com/wp-content/uploads/2025/11/banner-2-5.jpg",
       title: i18n.t("principalBanners.fishingSport.title"),
       description: i18n.t("principalBanners.fishingSport.description"),
     },
     {
-      image: Banners.Banner3,
+      image: "https://paticastravel.wordpress.com/wp-content/uploads/2025/11/banner-3-5.jpg",
       title: i18n.t("principalBanners.caribeanSouthCaribean.title"),
       description: i18n.t("principalBanners.caribeanSouthCaribean.description"),
     },
     {
-      image: Banners.Banner4,
+      image: "https://paticastravel.wordpress.com/wp-content/uploads/2025/11/banner-4-5.jpg",
       title: i18n.t("principalBanners.manuelAntonio.title"),
       description: i18n.t("principalBanners.manuelAntonio.description"),
     },
     {
-      image: Banners.Banner5,
+      image: "https://paticastravel.wordpress.com/wp-content/uploads/2025/11/banner-5-3.jpg",
       title: i18n.t("principalBanners.wildLife.title"),
       description: i18n.t("principalBanners.wildLife.description"),
     },
