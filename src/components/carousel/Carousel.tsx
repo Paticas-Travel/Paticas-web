@@ -42,7 +42,6 @@ const Carousel = () => {
   // Manejar la interacción del usuario para pausar/reanudar el autoplay
   const handleUserInteraction = () => {
     setIsUserInteracting(true);
-
     // Reanudar el autoplay después de 5 segundos de inactividad
     setTimeout(() => {
       setIsUserInteracting(false);
