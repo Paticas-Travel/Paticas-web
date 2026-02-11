@@ -4,7 +4,7 @@ import { BiSearchAlt } from "react-icons/bi";
 import { TbTargetArrow } from "react-icons/tb";
 import { TFunction } from "i18next";
 import i18n from "../../../i18n";
-import { ClientsIcon, FourIcon, DestinyIcon, TravelsIcon } from "../../../assets/icons";
+import { ClientsIcon, FiveIcon, DestinyIcon, TravelsIcon } from "../../../assets/icons";
 
 const founders = (t: TFunction): Array<Founder> => [
   {
@@ -55,8 +55,8 @@ const statsInfo = (t: TFunction): Array<Stat> => [
     description: t("statsInfo.0")
   },
   {
-    icon: FourIcon,
-    number: "4 " + i18n.t("years"),
+    icon: FiveIcon,
+    number: "5 " + i18n.t("years"),
     description: t("statsInfo.1")
   },
   {

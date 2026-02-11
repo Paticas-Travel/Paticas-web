@@ -1,5 +1,5 @@
 import ClientsIcon from './Clientes.png';
-import FourIcon from './Cuatro.png';
+import FiveIcon from './Cinco.png';
 import DestinyIcon from './Destinos.png';
 import TravelsIcon from './Viajes.png';
 // Tours Includes Icons
@@ -14,7 +14,7 @@ import ToursIcon from './Tours.png';
 
 export {
   ClientsIcon,
-  FourIcon,
+  FiveIcon,
   DestinyIcon,
   TravelsIcon,
   AirportTransferIcon,

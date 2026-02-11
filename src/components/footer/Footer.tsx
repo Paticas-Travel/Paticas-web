@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import Pyme from "../../assets/PYME.webp";
 import TripAdvisorIMG from "../../assets/tripadvisor-5-star1.png";
+import ICTLogo from "../../assets/ict-logo.png";
 import Modal from "../modal/Modal";
 import { useState } from "react";
 
@@ -22,7 +23,7 @@ const Footer = () => {
 
       {/* Top Section */}
       <section className="bg-[#2a4328] py-8 px-6">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-8 gap-8">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-7 gap-7">
 
 
           {/* Company Info */}
@@ -75,29 +76,30 @@ const Footer = () => {
             </a>
             <div className="flex gap-4 mt-3 ">
               <div onClick={() => window.open('https://www.instagram.com/paticas_paque_las_quierocr/')} className="w-8 h-8 rounded-full bg-[#F0B500] flex items-center justify-content-center cursor-pointer">
-                <FaInstagram className="text-xl text-black" />
+                <FaInstagram className="text-xl text- text-black" />
               </div>
               <div onClick={() => window.open('https://www.facebook.com/Paticaspaquelasquiero')} className="w-8 h-8 rounded-full bg-[#F0B500] flex items-center justify-content-center cursor-pointer">
-                <FaFacebookF className="text-xl text-black" />
+                <FaFacebookF className="text-xl text- text-black" />
               </div>
               <div onClick={() => window.open('https://www.tiktok.com/@paticastravelcr?_t=ZM-8zBhcPJlWKL&_r=1')} className="w-8 h-8 rounded-full bg-[#F0B500] flex items-center justify-content-center cursor-pointer">
-                <FaTiktok className="text-xl text-black" />
+                <FaTiktok className="text-xl text- text-black" />
               </div>
               <div onClick={() => window.open('https://www.tripadvisor.com/Attraction_Review-g309293-d33097180-Reviews-Paticas_Travel-San_Jose_San_Jose_Metro_Province_of_San_Jose.html')} className="w-8 h-8 rounded-full bg-[#F0B500] flex items-center justify-content-center cursor-pointer">
-                <FaTripadvisor className="text-xl text-black" />
+                <FaTripadvisor className="text-xl text- text-black" />
               </div>
             </div>
-          </section>
-
-          <article className="flex md:flex-col md:col-span-1 col-span-2 justify-center">
-            <img src={Pyme} alt="PYME" className="w-24 mx-4 md:mx-0" />
-            <img src={TripAdvisorIMG} alt="TripAdvisorIMG" className="w-24 mx-4 md:mx-0" />
-          </article>
+          </section >
         </div>
+        <article className="bg-[#2a4328] w-full py-2 px-6 grid grid-cols-2 md:grid-cols-3 gap-6 items-center">
+          <img src={Pyme} alt="PYME" className="w-24 mx-auto" />
+          <img src={TripAdvisorIMG} alt="TripAdvisorIMG" className="w-24 mx-auto" />
+          <img src={ICTLogo} alt="ICTLogo" className="w-44 col-span-2 md:col-span-1 justify-self-center" />
+        </article>
+      </section>
 
 
-        {/* Certifications */}
-        {/* <section className="text-black py-8 px-6">
+      {/* Certifications */}
+      {/* <section className="text-black py-8 px-6">
           <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-6 text-center md:text-left">
             <article className="p-4 bg-white shadow rounded-lg">{i18n.t("footer.certifications.tripadvisor")}</article>
             <article className="p-4 bg-white shadow rounded-lg">{i18n.t("footer.certifications.ict")}</article>
@@ -105,7 +107,6 @@ const Footer = () => {
             <article className="p-4 bg-white shadow rounded-lg">{i18n.t("footer.certifications.essential")}</article>
           </div>
         </section> */}
-      </section >
 
       {/* Newsletter */}
       <section className="max-w-7xl mx-auto grid md:grid-cols-4 gap-4 items-center text-center md:text-left" >

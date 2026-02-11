@@ -19,7 +19,7 @@ const AboutUs = () => {
   }
 
   const statItem = ({ icon, number, description }: Stat) => (
-    <article key={number + `-` + icon} className="flex flex-col items-center m-6 stat-container">
+    <article key={number + `-` + icon} className="flex flex-col items-center m-4 p-3 stat-container">
       <img src={icon} alt={icon} className="bg-white rounded-full w-32 h-32 flex items-center justify-center mb-4" />
       <span className="stat-number text-5xl mb-2">
         {number}
@@ -55,7 +55,7 @@ const AboutUs = () => {
       </section>
       <section className="w-full p-10 lg:justify-items-center stat-container">
         <h3 className="text-3xl text-gray-800 mb-8 text-center">{i18n.t("aboutUs.weAre")}</h3>
-        <article className="grid lg:grid-cols-2 md:grid-cols-1 lg:w-2/5 ">
+        <article className="grid lg:grid-cols-2 md:grid-cols-1 lg:w-3/4 ">
           {statsInfo(i18n.t).map((stat, index) => <Fragment key={index}>{statItem(stat)}</Fragment>)}
         </article>
       </section>
