@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Pyme from "../../assets/PYME.webp";
 import TripAdvisorIMG from "../../assets/tripadvisor-5-star1.png";
 import ICTLogo from "../../assets/ict-logo.png";
+import ESSENTIALLogo from "../../assets/Esencial-CR.png";
 import Modal from "../modal/Modal";
 import { useState } from "react";
 
@@ -90,13 +91,13 @@ const Footer = () => {
             </div>
           </section >
         </div>
-        <article className="bg-[#2a4328] w-full py-2 px-6 grid grid-cols-2 md:grid-cols-3 gap-6 items-center">
+        <article className="bg-[#2a4328] w-full py-2 px-6 grid grid-cols-2 md:grid-cols-4 gap-6 items-center">
           <img src={Pyme} alt="PYME" className="w-24 mx-auto" />
           <img src={TripAdvisorIMG} alt="TripAdvisorIMG" className="w-24 mx-auto" />
-          <img src={ICTLogo} alt="ICTLogo" className="w-44 col-span-2 md:col-span-1 justify-self-center" />
+          <img src={ICTLogo} alt="ICTLogo" className="w-44 col-span-1 justify-self-center" />
+          <img src={ESSENTIALLogo} alt="ESSENTIALLogo" className="w-44 col-span-1 justify-self-center" />
         </article>
       </section>
-
 
       {/* Certifications */}
       {/* <section className="text-black py-8 px-6">
